@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4BAF7D41C4160820060DDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF7D31C4160820060DDA9 /* AppDelegate.swift */; };
+		D4BAF7D61C4160820060DDA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF7D51C4160820060DDA9 /* ViewController.swift */; };
+		D4BAF7D91C4160820060DDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BAF7D71C4160820060DDA9 /* Main.storyboard */; };
+		D4BAF7DB1C4160820060DDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BAF7DA1C4160820060DDA9 /* Assets.xcassets */; };
+		D4BAF7DE1C4160820060DDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BAF7DC1C4160820060DDA9 /* LaunchScreen.storyboard */; };
+		D4BAF7E91C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF7E81C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.swift */; };
+		D4BAF7F41C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF7F31C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4BAF7E51C4160820060DDA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4BAF7C81C4160820060DDA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4BAF7CF1C4160820060DDA9;
+			remoteInfo = DimmingInteractiveNavigationTransition;
+		};
+		D4BAF7F01C4160820060DDA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4BAF7C81C4160820060DDA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4BAF7CF1C4160820060DDA9;
+			remoteInfo = DimmingInteractiveNavigationTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4BAF7D01C4160820060DDA9 /* DimmingInteractiveNavigationTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DimmingInteractiveNavigationTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BAF7D31C4160820060DDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4BAF7D51C4160820060DDA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4BAF7D81C4160820060DDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4BAF7DA1C4160820060DDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4BAF7DD1C4160820060DDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4BAF7DF1C4160820060DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BAF7E41C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimmingInteractiveNavigationTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BAF7E81C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingInteractiveNavigationTransitionTests.swift; sourceTree = "<group>"; };
+		D4BAF7EA1C4160820060DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BAF7EF1C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimmingInteractiveNavigationTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BAF7F31C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingInteractiveNavigationTransitionUITests.swift; sourceTree = "<group>"; };
+		D4BAF7F51C4160820060DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4BAF7CD1C4160820060DDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BAF7E11C4160820060DDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BAF7EC1C4160820060DDA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4BAF7C71C4160820060DDA9 = {
+			isa = PBXGroup;
+			children = (
+				D4BAF7D21C4160820060DDA9 /* DimmingInteractiveNavigationTransition */,
+				D4BAF7E71C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests */,
+				D4BAF7F21C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests */,
+				D4BAF7D11C4160820060DDA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4BAF7D11C4160820060DDA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF7D01C4160820060DDA9 /* DimmingInteractiveNavigationTransition.app */,
+				D4BAF7E41C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.xctest */,
+				D4BAF7EF1C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4BAF7D21C4160820060DDA9 /* DimmingInteractiveNavigationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF7D31C4160820060DDA9 /* AppDelegate.swift */,
+				D4BAF7D51C4160820060DDA9 /* ViewController.swift */,
+				D4BAF7D71C4160820060DDA9 /* Main.storyboard */,
+				D4BAF7DA1C4160820060DDA9 /* Assets.xcassets */,
+				D4BAF7DC1C4160820060DDA9 /* LaunchScreen.storyboard */,
+				D4BAF7DF1C4160820060DDA9 /* Info.plist */,
+			);
+			path = DimmingInteractiveNavigationTransition;
+			sourceTree = "<group>";
+		};
+		D4BAF7E71C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF7E81C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.swift */,
+				D4BAF7EA1C4160820060DDA9 /* Info.plist */,
+			);
+			path = DimmingInteractiveNavigationTransitionTests;
+			sourceTree = "<group>";
+		};
+		D4BAF7F21C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF7F31C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift */,
+				D4BAF7F51C4160820060DDA9 /* Info.plist */,
+			);
+			path = DimmingInteractiveNavigationTransitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4BAF7CF1C4160820060DDA9 /* DimmingInteractiveNavigationTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BAF7F81C4160820060DDA9 /* Build configuration list for PBXNativeTarget "DimmingInteractiveNavigationTransition" */;
+			buildPhases = (
+				D4BAF7CC1C4160820060DDA9 /* Sources */,
+				D4BAF7CD1C4160820060DDA9 /* Frameworks */,
+				D4BAF7CE1C4160820060DDA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DimmingInteractiveNavigationTransition;
+			productName = DimmingInteractiveNavigationTransition;
+			productReference = D4BAF7D01C4160820060DDA9 /* DimmingInteractiveNavigationTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4BAF7E31C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BAF7FB1C4160820060DDA9 /* Build configuration list for PBXNativeTarget "DimmingInteractiveNavigationTransitionTests" */;
+			buildPhases = (
+				D4BAF7E01C4160820060DDA9 /* Sources */,
+				D4BAF7E11C4160820060DDA9 /* Frameworks */,
+				D4BAF7E21C4160820060DDA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4BAF7E61C4160820060DDA9 /* PBXTargetDependency */,
+			);
+			name = DimmingInteractiveNavigationTransitionTests;
+			productName = DimmingInteractiveNavigationTransitionTests;
+			productReference = D4BAF7E41C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4BAF7EE1C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BAF7FE1C4160820060DDA9 /* Build configuration list for PBXNativeTarget "DimmingInteractiveNavigationTransitionUITests" */;
+			buildPhases = (
+				D4BAF7EB1C4160820060DDA9 /* Sources */,
+				D4BAF7EC1C4160820060DDA9 /* Frameworks */,
+				D4BAF7ED1C4160820060DDA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4BAF7F11C4160820060DDA9 /* PBXTargetDependency */,
+			);
+			name = DimmingInteractiveNavigationTransitionUITests;
+			productName = DimmingInteractiveNavigationTransitionUITests;
+			productReference = D4BAF7EF1C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4BAF7C81C4160820060DDA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arvindh Sukumar";
+				TargetAttributes = {
+					D4BAF7CF1C4160820060DDA9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D4BAF7E31C4160820060DDA9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4BAF7CF1C4160820060DDA9;
+					};
+					D4BAF7EE1C4160820060DDA9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D4BAF7CF1C4160820060DDA9;
+					};
+				};
+			};
+			buildConfigurationList = D4BAF7CB1C4160820060DDA9 /* Build configuration list for PBXProject "DimmingInteractiveNavigationTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4BAF7C71C4160820060DDA9;
+			productRefGroup = D4BAF7D11C4160820060DDA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4BAF7CF1C4160820060DDA9 /* DimmingInteractiveNavigationTransition */,
+				D4BAF7E31C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests */,
+				D4BAF7EE1C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4BAF7CE1C4160820060DDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BAF7DE1C4160820060DDA9 /* LaunchScreen.storyboard in Resources */,
+				D4BAF7DB1C4160820060DDA9 /* Assets.xcassets in Resources */,
+				D4BAF7D91C4160820060DDA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BAF7E21C4160820060DDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BAF7ED1C4160820060DDA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4BAF7CC1C4160820060DDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BAF7D61C4160820060DDA9 /* ViewController.swift in Sources */,
+				D4BAF7D41C4160820060DDA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BAF7E01C4160820060DDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BAF7E91C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BAF7EB1C4160820060DDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BAF7F41C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4BAF7E61C4160820060DDA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4BAF7CF1C4160820060DDA9 /* DimmingInteractiveNavigationTransition */;
+			targetProxy = D4BAF7E51C4160820060DDA9 /* PBXContainerItemProxy */;
+		};
+		D4BAF7F11C4160820060DDA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4BAF7CF1C4160820060DDA9 /* DimmingInteractiveNavigationTransition */;
+			targetProxy = D4BAF7F01C4160820060DDA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4BAF7D71C4160820060DDA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BAF7D81C4160820060DDA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4BAF7DC1C4160820060DDA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BAF7DD1C4160820060DDA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4BAF7F61C4160820060DDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4BAF7F71C4160820060DDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4BAF7F91C4160820060DDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DimmingInteractiveNavigationTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.behindtechlines.DimmingInteractiveNavigationTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4BAF7FA1C4160820060DDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DimmingInteractiveNavigationTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.behindtechlines.DimmingInteractiveNavigationTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4BAF7FC1C4160820060DDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DimmingInteractiveNavigationTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.behindtechlines.DimmingInteractiveNavigationTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimmingInteractiveNavigationTransition.app/DimmingInteractiveNavigationTransition";
+			};
+			name = Debug;
+		};
+		D4BAF7FD1C4160820060DDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DimmingInteractiveNavigationTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.behindtechlines.DimmingInteractiveNavigationTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DimmingInteractiveNavigationTransition.app/DimmingInteractiveNavigationTransition";
+			};
+			name = Release;
+		};
+		D4BAF7FF1C4160820060DDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DimmingInteractiveNavigationTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.behindtechlines.DimmingInteractiveNavigationTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DimmingInteractiveNavigationTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4BAF8001C4160820060DDA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DimmingInteractiveNavigationTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.behindtechlines.DimmingInteractiveNavigationTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DimmingInteractiveNavigationTransition;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4BAF7CB1C4160820060DDA9 /* Build configuration list for PBXProject "DimmingInteractiveNavigationTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BAF7F61C4160820060DDA9 /* Debug */,
+				D4BAF7F71C4160820060DDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4BAF7F81C4160820060DDA9 /* Build configuration list for PBXNativeTarget "DimmingInteractiveNavigationTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BAF7F91C4160820060DDA9 /* Debug */,
+				D4BAF7FA1C4160820060DDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4BAF7FB1C4160820060DDA9 /* Build configuration list for PBXNativeTarget "DimmingInteractiveNavigationTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BAF7FC1C4160820060DDA9 /* Debug */,
+				D4BAF7FD1C4160820060DDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4BAF7FE1C4160820060DDA9 /* Build configuration list for PBXNativeTarget "DimmingInteractiveNavigationTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BAF7FF1C4160820060DDA9 /* Debug */,
+				D4BAF8001C4160820060DDA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4BAF7C81C4160820060DDA9 /* Project object */;
+}
