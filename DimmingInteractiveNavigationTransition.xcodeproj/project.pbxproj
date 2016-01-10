@@ -14,6 +14,10 @@
 		D4BAF7DE1C4160820060DDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BAF7DC1C4160820060DDA9 /* LaunchScreen.storyboard */; };
 		D4BAF7E91C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF7E81C4160820060DDA9 /* DimmingInteractiveNavigationTransitionTests.swift */; };
 		D4BAF7F41C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF7F31C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift */; };
+		D4BAF8031C4160B80060DDA9 /* DimmingPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF8021C4160B80060DDA9 /* DimmingPushTransition.swift */; };
+		D4BAF8061C41673F0060DDA9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF8051C41673F0060DDA9 /* NavigationController.swift */; };
+		D4BAF8081C416F100060DDA9 /* DimmingPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF8071C416F100060DDA9 /* DimmingPopTransition.swift */; };
+		D4BAF80A1C420C570060DDA9 /* DimmingInteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF8091C420C570060DDA9 /* DimmingInteractiveTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		D4BAF7EF1C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimmingInteractiveNavigationTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4BAF7F31C4160820060DDA9 /* DimmingInteractiveNavigationTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimmingInteractiveNavigationTransitionUITests.swift; sourceTree = "<group>"; };
 		D4BAF7F51C4160820060DDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BAF8021C4160B80060DDA9 /* DimmingPushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmingPushTransition.swift; sourceTree = "<group>"; };
+		D4BAF8051C41673F0060DDA9 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		D4BAF8071C416F100060DDA9 /* DimmingPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmingPopTransition.swift; sourceTree = "<group>"; };
+		D4BAF8091C420C570060DDA9 /* DimmingInteractiveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmingInteractiveTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		D4BAF7D21C4160820060DDA9 /* DimmingInteractiveNavigationTransition */ = {
 			isa = PBXGroup;
 			children = (
+				D4BAF8041C41672A0060DDA9 /* Example */,
+				D4BAF8011C41608C0060DDA9 /* Classes */,
 				D4BAF7D31C4160820060DDA9 /* AppDelegate.swift */,
 				D4BAF7D51C4160820060DDA9 /* ViewController.swift */,
 				D4BAF7D71C4160820060DDA9 /* Main.storyboard */,
@@ -123,6 +133,24 @@
 				D4BAF7F51C4160820060DDA9 /* Info.plist */,
 			);
 			path = DimmingInteractiveNavigationTransitionUITests;
+			sourceTree = "<group>";
+		};
+		D4BAF8011C41608C0060DDA9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF8021C4160B80060DDA9 /* DimmingPushTransition.swift */,
+				D4BAF8071C416F100060DDA9 /* DimmingPopTransition.swift */,
+				D4BAF8091C420C570060DDA9 /* DimmingInteractiveTransition.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D4BAF8041C41672A0060DDA9 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF8051C41673F0060DDA9 /* NavigationController.swift */,
+			);
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4BAF8081C416F100060DDA9 /* DimmingPopTransition.swift in Sources */,
+				D4BAF8031C4160B80060DDA9 /* DimmingPushTransition.swift in Sources */,
+				D4BAF8061C41673F0060DDA9 /* NavigationController.swift in Sources */,
 				D4BAF7D61C4160820060DDA9 /* ViewController.swift in Sources */,
 				D4BAF7D41C4160820060DDA9 /* AppDelegate.swift in Sources */,
+				D4BAF80A1C420C570060DDA9 /* DimmingInteractiveTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
